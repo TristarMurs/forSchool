@@ -1,0 +1,288 @@
+body {
+    min-width: 1024px;
+    background-color: blanchedalmond;
+    min-height: 1024px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 76px;
+    margin-top: 3%;
+}
+
+.logo1 {
+    float: left;
+    margin-left: 3%;
+    width: 10%;
+    height: 100%;
+    margin-right: 3%;
+    object-fit: contain;
+}
+.logo2 {
+    width: 100%;
+    height: 100%;
+}
+
+.cart {
+    border-radius: 10%;
+    float: right;
+    height: 80%;
+    margin-top: auto;
+    margin-right: 3%;
+    margin-bottom: auto;
+    clear: none;
+    background-color: burlywood;
+    object-fit: contain;
+    outline-width: 2px;
+    outline-color: black;
+    outline-style: solid;
+}
+.cart:hover {
+    background-color: rgb(175, 144, 104);
+}
+.cart-pic {
+    float: right;
+    min-width: 5%;
+    height: 100%;
+    clear: none;
+    object-fit: contain;
+}
+
+.inp {
+    float: left;
+    box-sizing: border-box;
+    margin-top: 1.25%;
+    height: 50%;
+    font-size: 200%;
+    width: 70.5%;
+    font-family: 'Courier New', Courier, monospace;
+    border-top-color: darkred;
+    border-bottom-color: darkred;
+    border-left-color: darkred;
+    border-right-style: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.clicky {
+    float: left;
+    height: 50%;
+    min-width: 2.5%;
+    margin-top: 1.25%;
+    margin-right: 3%;
+    border-left-width: 3px;
+    border-color: darkred;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/* Header Above! */
+
+
+
+
+
+.purchase-box {
+    display: flex;
+    flex-direction: row;
+    clear: both;
+    width: 100%;
+    margin-top: 3%;
+    height: 600px;
+}
+.pic-box {
+    height: 100%;
+    width: 30%;
+    margin-left: 15%;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 3px;
+    background-color: blanchedalmond;
+}
+.main-pic {
+    height: 98%;
+    object-fit: contain;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.right-boxes {
+    height: 100%;
+    width: 45%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 3px;
+}
+.bigright-a {
+    width: 100%;
+    height: 25%; 
+    display: flex;
+    flex-direction: row;
+}
+.price-box {
+    width: 50%;
+    height: 100%; /* muuta 100% */
+}
+.prices {
+    margin-left: 15%;
+}
+.pricehead {
+    margin-top: 4%;
+    margin-bottom: 0%;
+    font-size: 150%;
+    font-weight: bold;
+}
+.perbag {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 200%;
+    color: darkred;
+    font-weight: bolder;
+}
+.perkilo {
+    margin-top: 0%;
+    font-size: 170%;
+    font-weight: bold;
+    margin-top: 3%;
+}
+.like-avail {
+    width: 50%;
+    height: 100%; /* muuta 100% */
+    display: flex;
+    flex-direction: column;
+    letter-spacing: -2px;
+}
+.stars {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+}
+.stars-a {
+    height: 100%;
+    width: 50%;
+}
+.rating {
+    font-size: 150%;
+    margin-top: 16%;
+    margin-left: 10%;
+}
+.stars-b {
+    margin-bottom: auto;
+    height: 100%;
+    float: left;
+}
+.stars1 {
+    height: 26%;
+    margin-bottom: auto;
+    margin-top: 18%;
+}
+
+.availability {
+    clear: both;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.avail-a {
+    font-size: 145%;
+    clear: both;
+    margin-top: 0%;
+}
+.avail-b {
+    font-size: 145%;
+    font-weight: bold;
+    color: chartreuse;
+    margin-left: 8%;
+    margin-top: 0%;
+    margin-right: auto;
+}
+.bigright-b {
+    height: 75%;
+    width: 100%;
+}
+.droppie {
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdown {
+    display: block;
+    width: 7%;
+    padding: 1%;
+    padding-left: 3%;
+    margin-top: 0%;
+    margin-left: 3%;
+    margin-right: 4%;
+    font-size: 120%;
+    cursor: pointer;
+    /* total width is 18% */
+}
+.buying {
+    font-size: 130%;
+    color: white;
+    background-color: #dd722a;
+    cursor: pointer;
+    width: 78%;
+    margin-top: 0%;
+    border-style: hidden;
+    border-radius: 10px;
+    transition: box-shadow 350ms;
+    box-shadow: 0px 1px 6px 0px #dd722a;
+    margin-right: 3%;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.buying:hover {
+    box-shadow: none;
+}
+.buying:active {
+    background-color: #b05920;
+}
+
+.info-box {
+    clear: both;
+    margin: 3%;
+    background-color: ivory;
+}
+.coffeedesc {
+    font-size: 120%;
+    padding: 1%;
+    text-align: center;
+}
+.brand-info {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 3px;
+    height: 40%;
+}
+.boxyprime {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    outline-style: solid;
+    outline-width: 1px;
+}
+.boxy2 {
+    display: flex;
+    flex-direction: row;
+    height: 33.33%;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+.boxy-a {
+    width: 50%;
+    font-size: 110%;
+    margin-left: 2%;
+}
